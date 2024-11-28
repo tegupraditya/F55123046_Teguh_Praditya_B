@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: linear-gradient(45deg, #000000, #1459d0);
+    color: white;
+    border-radius: 10px;
+}
+header h1 {
+    font-size: 2.5rem;
+}
+header p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+/* Section Title */
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #0e3984;
+}
+/* Flexbox Section */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.flex-item {
+    background-color: #f8f9fa;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 220px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.flex-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.flex-item img {
+    width: 100%;
+    height: auto;
+}
+.flex-item h3 {
+    margin: 10px 0;
+    color: #333;
+}
+.flex-item p {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0 10px 10px;
+}
+/* Grid Section */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.grid-item {
+    background-color: #f8f9fa;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+.grid-item h3 {
+    margin: 10px 0;
+    color: #333;
+}
+.grid-item p {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0 10px 10px;
+}
